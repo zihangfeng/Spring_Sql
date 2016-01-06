@@ -1,0 +1,12 @@
+CREATE DATABASE EMDB;
+use EMDB;
+		    
+CREATE TABLE employee (
+			eid INT(20) NOT NULL,
+			name VARCHAR(20) NOT NULL,
+			salary INT(20) NOT NULL,
+			primary key(eid));
+
+CREATE TABLE manager(
+			eid INT(20) NOT NULL,
+			mid INT(20));
